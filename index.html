@@ -7,86 +7,100 @@
     
     <title>NexaCore - Home</title> <!--Firmenname-->
 
+    <!--Stylesheet links-->
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
     <script src = "script.js" defer></script>
 
 </head>
 <body>
 
-    <header>
+    <div class="wrapper"></div>
+        
+        <header>
 
-        <div class = "title">
-            <h1>Firmenname/Überschrift</h1> <!--Auf anderen Seiten andere Überschrift machen-->
-        </div>
+            <div class = "title">
+            <a href="index.html" class="home">
+                <h1>NexaCore</h1>
+            </a>
+            </div>
 
-        <!--Navbar hier, vielleicht nur Elemente zu Privat und Business
-        auf den anderen webpages dann links für kontakt machen-->
-        <div class = "navbar" id="homeNavbar">
-            <nav>
+            <nav class = "navbar">
                 <ul>
-                    <li><a href="private.html">Privatkunden</a></li> <!-- vielleicht ohne links, links in bilder-->
+                    <li><a href="private.html">Privatkunden</a></li>
                     <li><a href="business.html">Business</a></li>
                     <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </nav>
-        </div>
-
-    </header>
-
-    <section>
-
-        <!--3 Bilder mit auswahl von projekten mit flexbox-->
-        <div class="photo-homescreen">
-            <img src="img/house-1477041_1280.jpg" alt="house-private" id="house-private">
-            <h2>Privatkunden</h2>
-            <img src="img/city-182223_1280.jpg" alt="house-business" id="house-business">
-            <h2>Business</h2>
-        </div>
-
-    </section>
-
-    <section>
-
-        <!--Werbebereich mit Plakat und Radiospot download-->
-
-        <div id = "Plakat">
-            <img src="img/Acr8596134316416-2957158.tmp.jpg" alt="Plakat">
-        </div>
 
 
-        <!--Eigenen Audioplayer bauen?-->
+        </header>
+
+        <section>
+
+            <!--3 Bilder mit auswahl von projekten mit flexbox-->
+            <div class="photo-homescreen">
+                <img src="img/house-1477041_1280.jpg" alt="house-private" id="house-private">
+                <h2>Privatkunden</h2>
+                <img src="img/city-182223_1280.jpg" alt="house-business" id="house-business">
+                <h2>Business</h2>
+            </div>
+
+        </section>
+
+        <section>
+
+            <!--Werbebereich mit Plakat und Radiospot download-->
+
+            <div id = "Plakat">
+                <img src="img/Acr8596134316416-2957158.tmp.jpg" alt="Plakat">
+            </div>
 
 
-        <div id = "Radiospot">
-            <audio controls>
-                <source src="media/Radiospot MP3.mp3" type="audio/mp3">
-            </audio>
-        </div>
-
-        Medien - Kampagne
-        Unsere Vision auf einem Blick.
-        ⬇ Plakat herunterladen
+            <!--Eigenen Audioplayer bauen?-->
 
 
-        "Virtuell geplant, autonom realisiert." Hören sie sich die Zukunft an:
-        ⬇ Radiospot herunterladen
+            <div id = "Radiospot">
+                <audio controls>
+                    <source src="media/Radiospot MP3.mp3" type="audio/mp3">
+                </audio>
+            </div>
 
-    </section>
+            Medien - Kampagne
+            Unsere Vision auf einem Blick.
+            ⬇ Plakat herunterladen
 
-    <footer>
 
-        <ul>
-            <li><a href="#">Impressum</a></li>
-            <li><a href="#">Social Media 1</a></li>
-            <li><a href="#">Social Media 2</a></li>
-            <li><a href="#">Social Media 3</a></li>
-        </ul>
+            "Virtuell geplant, autonom realisiert." Hören sie sich die Zukunft an:
+            ⬇ Radiospot herunterladen
 
-        <!--relevante Links zu bspw impressum und social media vlt-->
+        </section>
 
-    </footer>
+        <footer>
+
+            <ul>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Social Media 1</a></li>
+                <li><a href="#">Social Media 2</a></li>
+                <li><a href="#">Social Media 3</a></li>
+            </ul>
+
+            <!--relevante Links zu bspw impressum und social media vlt-->
+
+        </footer>
+
+    </div>    
 
 </body>
 
