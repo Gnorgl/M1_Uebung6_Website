@@ -1,1 +1,10 @@
+.photo-homescreen {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-homescreen img {
+    width: 40vw;
+    border-radius: 12px;
+}
 

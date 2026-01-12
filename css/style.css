@@ -4,6 +4,17 @@ body {
 
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 5vw; 
+}
+
+ul a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -13,19 +24,6 @@ header {
 
 header a {
     text-decoration: none;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    gap: 5vw;
-}
-
-.navbar a {
-    text-decoration: none;
-    font-weight: 600;
-    color: black;
 }
 
 
