@@ -1,21 +1,14 @@
-.photo-homescreen {
-    display: flex;
-    justify-content: center;
-    gap: 5vw;
-}
-
-.photo-homescreen img {
-    width: 40vw;
-    border-radius: 12px;
-}
-
-#Plakat img {
-    width: 20vw;
-}
-
-#test {
+#homescreen {
     background-image: url("../img/house-1477041_1280.jpg");
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
+
+
+#test {
+    height: 100vh;
+}
+
+
 

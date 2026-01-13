@@ -18,15 +18,21 @@ ul a {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: clamp(10px, 5vw, 30px);
-
+    position: fixed;
+    width: 100vw;
 }
+
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+header a:hover {
+    color: violet;
+    transition: .25s;
 }
 
 
