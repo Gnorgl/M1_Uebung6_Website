@@ -12,3 +12,10 @@
 #Plakat img {
     width: 20vw;
 }
+
+#test {
+    background-image: url("../img/house-1477041_1280.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
