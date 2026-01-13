@@ -1,14 +1,11 @@
 #homescreen {
     background-image: url("../img/house-1477041_1280.jpg");
     background-size: cover;
-    height: 100vh;
     background-attachment: fixed;
 }
 
 
-#test {
-    height: 100vh;
-}
-
+/*In spezifischen css files nur id's ansprechen, klassen werden nur in style.css gestyled!
+clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 
 
