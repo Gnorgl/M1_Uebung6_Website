@@ -16,7 +16,7 @@ img, video {
 }
 
 .erste {
-    background-image: url('img1.png');
+    background-image: url('img/img1.png');
     background-size: cover;
     height: 90vh;
     position: sticky;
