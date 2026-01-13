@@ -5,7 +5,8 @@
 }
 
 
-/*In spezifischen css files nur id's ansprechen, klassen werden nur in style.css gestyled!
-clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
+/*In spezifischen css files (home.css, contact.css, etc.) nur id's ansprechen, klassen werden nur in style.css gestyled!
 
+clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
+*/
 
