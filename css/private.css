@@ -115,3 +115,23 @@
     margin: 0;
     font-weight: 500;
 }
+/* --- Footer --- */
+.final-section {
+    background: linear-gradient(135deg, #ff6600 0%, #ff8c42 100%);
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.final-section::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    bottom: -300px;
+    left: -200px;
+}
