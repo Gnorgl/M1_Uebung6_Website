@@ -40,7 +40,7 @@ header ul {
 header a {
     text-decoration: none;
     color: black;
-    transition: transform .3s ease-out;
+    transition: transform 0.3s ease-out;
 }
 
 header li a:hover {
@@ -54,7 +54,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: black;
     backdrop-filter: blur(10px);
     font-size: .75rem;
 }
@@ -70,7 +70,7 @@ footer ul {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 footer a:hover {

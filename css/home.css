@@ -30,19 +30,47 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 
 #homescreen a {
     font-size: clamp(.75rem, 1.25vw, 1.75rem);
-    color: red;
+    background: linear-gradient(45deg, #fb1303, #1a25f0);
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease-out;
+    display: inline-block;
 }
 
 #homescreen a:hover {
-    color: rgb(115, 0, 255);
+    size-adjust: 1.2;
+    transform: scale(1.1);
+}
+
+#homescreen-image {
+    position: relative;
 }
 
 #homescreen-image img{
+    position: relative;
+    z-index: 2;
     margin-left: 5vw;
     margin-bottom: 15vh;
     width: clamp(30rem,40vw,50rem);
     transition: transform .3s ease-out;
 }
+
+#kreis-1 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: clamp(25rem, 35vw, 45rem);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #fb1303, #f0d41a);
+}
+
+
+
+
+
 
 
 
