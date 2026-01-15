@@ -13,16 +13,6 @@
     margin-bottom: 60px;
 }
 
-.projects::before {
-    content: '';
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    top: -200px;
-    right: -200px;
-}
 /* Header Text*/
 .projects h2 {
     color: #ffffff;
@@ -43,6 +33,7 @@
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
+
 
 .hero-image {
     width: 100%;
@@ -69,6 +60,13 @@
 .intro-text span {
     color: #ff6600;
     position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Blauer effekt  auf das Wort */
+.intro-text span:hover {
+    color: #007bff;          
+    cursor: pointer;
 }
 
 /* --- KARTEN DESIGN (.content-section) --- */
@@ -125,13 +123,31 @@
     margin-top: 80px;
 }
 
-.final-section::before {
-    content: '';
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    bottom: -300px;
-    left: -200px;
+
+.final-text {
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+    font-size: 2.0em;
+    line-height: 1.4;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+.cta-button {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #ffffff;
+    color: #ff6600;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none; 
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }

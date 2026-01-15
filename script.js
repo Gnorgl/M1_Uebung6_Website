@@ -16,3 +16,12 @@ window.addEventListener('scroll', function() {
     }
 });
 
+/* Für Private "Individuell" Link Farbe ändern, inspo: https://www.youtube.com/watch?v=b3Sh4oydzoU */
+/* const orangeText = document.querySelector('.intro-text span');
+
+if (orangeText) {
+    orangeText.addEventListener('click', function() {
+        this.classList.toggle('clicked');
+    
+    })
+}*/
