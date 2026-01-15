@@ -44,6 +44,7 @@
     z-index: 1;
 }
 
+
 .hero-image {
     width: 100%;
     height: auto;
@@ -69,12 +70,13 @@
 .intro-text span {
     color: #ff6600;
     position: relative;
+    transition: color 0.3s ease;
 }
 
-/* Blauer effekt bei Klick auf das Wort */
-.intro-text span:active {
-    color: #0800ff; 
-    cursor: pointer; 
+/* Blauer effekt  auf das Wort */
+.intro-text span:hover {
+    color: #007bff;          
+    cursor: pointer;
 }
 
 /* --- KARTEN DESIGN (.content-section) --- */
@@ -144,7 +146,7 @@
 .final-text {
     max-width: 1000px;
     margin: 0 auto 30px auto;
-    font-size: 1.em;
+    font-size: 2.0em;
     line-height: 1.4;
     color: #ffffff;
     font-weight: 700;
