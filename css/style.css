@@ -20,7 +20,7 @@ header {
     width: 100%;
     top: 0;
     padding: 0 clamp(10px, 3vw, 40px);
-    background-color: rgba(245, 245, 245, 0.3);
+    background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(10px);
 }
 
@@ -41,11 +41,6 @@ header a {
     text-decoration: none;
     color: black;
     transition: transform .3s ease-out;
-}
-
-header a h1:hover {
-    transform: 0.3s;
-    color: #454545;
 }
 
 header li a:hover {

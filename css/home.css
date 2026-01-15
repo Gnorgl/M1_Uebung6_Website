@@ -10,7 +10,7 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 }
 
 
-#homescreen-main-container{
+#homescreen-main-container {
     margin-left: 10vw;
     text-align: left;
     margin-bottom: 20vh;
@@ -30,6 +30,11 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 
 #homescreen a {
     font-size: clamp(.75rem, 1.25vw, 1.75rem);
+    color: red;
+}
+
+#homescreen a:hover {
+    color: rgb(115, 0, 255);
 }
 
 #homescreen-image img{
@@ -38,6 +43,7 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
     width: clamp(30rem,40vw,50rem);
     transition: transform .3s ease-out;
 }
+
 
 
 
