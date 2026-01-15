@@ -19,16 +19,26 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 #homescreen-paragraph-one {
     font-size: clamp(3.5rem, 6vw, 8rem);
     margin-bottom: 0;
+    color: black;
 }
 
 #homescreen-paragraph-two {
     font-size: clamp(1rem, 1.5vw, 2rem);
     margin-bottom: 2vh;
+    color: rgb(79, 79, 79);
 }
 
 #homescreen a {
     font-size: clamp(.75rem, 1.25vw, 1.75rem);
 }
+
+#homescreen-image img{
+    margin-left: 5vw;
+    margin-bottom: 15vh;
+    width: clamp(30rem,40vw,50rem);
+    transition: transform .3s ease-out;
+}
+
 
 
 
