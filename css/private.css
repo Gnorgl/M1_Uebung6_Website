@@ -71,6 +71,12 @@
     position: relative;
 }
 
+/* Blauer effekt bei Klick auf das Wort */
+.intro-text span:active {
+    color: #0800ff; 
+    cursor: pointer; 
+}
+
 /* --- KARTEN DESIGN (.content-section) --- */
 .content-section {
     display: flex;
@@ -134,4 +140,31 @@
     border-radius: 50%;
     bottom: -300px;
     left: -200px;
+}
+.final-text {
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+    font-size: 1.em;
+    line-height: 1.4;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+.cta-button {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #ffffff;
+    color: #ff6600;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none; 
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
