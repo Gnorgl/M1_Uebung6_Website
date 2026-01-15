@@ -1,5 +1,5 @@
 
-/* Oberer Header / Hero Class */
+/* --- Oberer Header / Hero Class --- */
 .projects {
     min-height: 90vh;
     display: flex;
@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-/* Header bild */
+/* --- HEADER BILD --- */
 .hero-image-container {
     max-width: 1000px;
     width: 100%;
