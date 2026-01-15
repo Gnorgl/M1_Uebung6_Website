@@ -13,16 +13,6 @@
     margin-bottom: 60px;
 }
 
-.projects::before {
-    content: '';
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    top: -200px;
-    right: -200px;
-}
 /* Header Text*/
 .projects h2 {
     color: #ffffff;
@@ -133,16 +123,7 @@
     margin-top: 80px;
 }
 
-.final-section::before {
-    content: '';
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    bottom: -300px;
-    left: -200px;
-}
+
 .final-text {
     max-width: 1000px;
     margin: 0 auto 30px auto;
