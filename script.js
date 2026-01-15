@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
 
     if (imageToFade) {
         const scrollPosition = window.scrollY;
-        const fadeOutPoint = 1000; 
+        const fadeOutPoint = 900; 
 
         let newOpacity = 1 - (scrollPosition / fadeOutPoint);
 
@@ -15,3 +15,4 @@ window.addEventListener('scroll', function() {
         imageToFade.style.opacity = newOpacity;
     }
 });
+
