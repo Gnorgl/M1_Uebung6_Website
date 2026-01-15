@@ -74,10 +74,10 @@ footer a {
 }
 
 footer a:hover {
-    color: darkblue;
+    color: #ff6600;
     transition: .3s;
 }
 
-
+/*#ff6600*/
 
 
