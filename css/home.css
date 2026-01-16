@@ -19,7 +19,6 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 #homescreen-paragraph-one {
     font-size: clamp(3.5rem, 5vw, 5rem);
     margin-bottom: 0;
-    color: black;
 }
 [data-theme="dark"] #homescreen-paragraph-one {
     color: #ffffff;
@@ -28,12 +27,11 @@ clamp(min, ideal, max) für repsonsive design, auch für text und bilder.
 #homescreen-paragraph-two {
     font-size: clamp(1rem, 1vw, 1.25rem);
     margin-bottom: 2vh;
-    color: rgb(79, 79, 79);
 }
 
 #homescreen a {
     font-size: clamp(.8rem, 1vw, 1.15rem);
-    background: linear-gradient(45deg, #fb1303, #1a25f0);
+    background: var(--homescreen-link-color);
     background-clip: text;
     color: transparent;
     transition: transform 0.3s ease-out;

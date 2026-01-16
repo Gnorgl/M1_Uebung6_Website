@@ -18,7 +18,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgba(36, 36, 36, 0.715);
     backdrop-filter: blur(10px);
     font-size: .75rem;
 }
@@ -35,11 +35,6 @@ footer ul {
 footer a {
     text-decoration: none;
     color: white;
-}
-
-footer a:hover {
-    color: #ff6600;
-    transition: .3s;
 }
 
 /*#ff6600*/
@@ -130,6 +125,8 @@ header li a:hover {
     --card-bg: #f4f4f4;          
     --card-shadow: rgba(0,0,0,0.1);
     --link-color: #000000;
+    --homescreen-link-color: linear-gradient(45deg, #fb1303, #1a25f0);
+    --about-audio-color: 1;
 }
 
 /* Dark Mode  */
@@ -140,6 +137,8 @@ header li a:hover {
     --card-bg: #2a2a2a;          
     --card-shadow: rgba(0,0,0,0.5);
     --link-color: #ffffff;
+    --homescreen-link-color: linear-gradient(45deg, #fb1303, #f0d41a);
+    --about-audio-color: 0;
 }
 
 /* Farbe Schwarz und Weiß */
