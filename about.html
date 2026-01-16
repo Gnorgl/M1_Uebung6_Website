@@ -10,7 +10,7 @@
     <!--Stylesheet links-->
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,52 +21,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/about.css">
+    <script src = "script.js" defer></script>
 
 </head>
 <body>
 
-    
-
-     <div class="scroll-container">
-        <div class="header">
-                <a href="index.html">HOME</a>
-                <a href="#">ANGEBOTE</a>
-                <a href="#">ÜBER UNS</a>
-                <a href="#">KONTAKT</a>
-            </div>
-        <div class="erste">
-            <p>NEXA CORE. Virtuell geplant. Autonom realisiert.</p>
-        </div>
-        <div class="zweite">
-            <div class="top-stuff"></div>
-            <div class="wrapper">
-                <img src="img/img_haus.png">
-                <div class="text">
-                    <p>NEXA CORE gibt dir die möglichkeit zu deinem Eigenheim! <br><br> Durch Jahrzehnte der private Akteure 
-                        auf dem Wohnungsmarkt ist der Traum vom Eigenheim eine schiere Utopie. Aber jetzt nicht mehr! 
-                        Baue dir schnell, günstig und persönlich dein Zuhause in dem du deine Kinder grossziehen kannst. <br> <br>
-                        Dank unserer VR Technologie kann man sich sein Traumhaus in nur wenigen Minuten persönlich selbst personalisieren und einrichten. <br> <br>
-                        Erfüll dir deine Träume hier:
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="top-stuff"></div>
-            <div class="wrapper">
-                <div class="text">
-                    <p>Wir sind eine junge Firma, die dank unserer bahnbrechenden Erfindung 
-                        den Haus und Wohnungbau revolutioniert haben.<br> <br> Dank unserer 3d Drucker können
-                        wir in nur wenigen Tagen ein komplettes Gebäude erstellen und ist dann sofort liefer und bezugsbereit <br> <br>Volle Effizienz, volle Leistung,
-                        keine Menschen, keine Fehler! <br> <br>
-                        Erfahren sie mehr hier:
-                    </p>
-                </div>
-                <img src="img/img_product.jpg">
-            </div>
-        </div>
+    <header>
+    <div class="title">
+        <a href="index.html" class="home">
+            <h1 id="title-color">NexaCore</h1>
+        </a>
     </div>
+
+    <nav class="navbar">
+        <ul>
+            <li id="private"><a href="private.html">Privatkunden</a></li>
+            <li id="business"><a href="business.html">Business</a></li>
+            <li id="about"><a href="about.html">About</a></li>
+            <li id="contact"><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="theme-switch-wrapper">
+        <span id="mode-text">Lightmode</span> <label class="switch">
+            <input type="checkbox" id="theme-toggle-checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    </header>
+    <section>
+        <p>Übersicht</p>
+    </section>
+
+     
     <footer>
         <ul>
             <li><a href="#">Impressum</a></li>
@@ -74,5 +61,4 @@
             <li><a href="#">Instagram</a></li>
         </ul>
     </footer>
-    <script src = "about.js" defer></script>
 </body>
