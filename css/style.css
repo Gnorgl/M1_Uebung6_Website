@@ -12,42 +12,6 @@ section {
     height: 100vh;
 }
 
-header {
-    display: flex;
-    position: fixed;
-    z-index: 999;
-    align-items: center;
-    width: 100%;
-    top: 0;
-    padding: 0 clamp(10px, 3vw, 40px);
-    background-color: rgba(245, 245, 245, 0.5);
-    backdrop-filter: blur(10px);
-}
-
-header h1 {
-    margin: 1vh;
-    transition: transform .3s ease-out;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-    gap: 5rem;
-    margin: 0;
-    padding-left: 5rem;
-}
-
-header a {
-    text-decoration: none;
-    color: black;
-    transition: transform 0.3s ease-out;
-}
-
-header li a:hover {
-    text-decoration: underline;
-    transform: 0.3s;
-}
-
 footer {
     width: 100%;
     height: 2.5vh;
@@ -100,29 +64,44 @@ a {
 }
 
 
-
-
-
-
-
 /* header Layout */
 header {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 20px 40px; 
+    position: fixed;
+    z-index: 999;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    padding: 0 clamp(10px, 3vw, 40px);
     background-color: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(10px);
     transition: background-color 0.3s;
 }
 
-/* navigation */
-.navbar ul {
-    display: flex;
-    gap: 30px; 
-    list-style: none;
-    margin: 0;
-    padding: 0;
+header h1 {
+    margin: 1vh;
+    transition: transform .3s ease-out;
 }
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    margin: 0;
+    padding-left: 5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease-out;
+}
+
+header li a:hover {
+    text-decoration: underline;
+    transform: 0.3s;
+}
+
 
 /* box für schalter & text */
 .theme-switch-wrapper {
