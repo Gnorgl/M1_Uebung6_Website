@@ -62,6 +62,10 @@
     position: relative;
     transition: color 0.3s ease;
 }
+// Dark Mode Anpassung
+[data-theme="dark"] .intro-text {
+    color: #ffffff;
+}
 
 /* Blauer effekt  auf das Wort */
 .intro-text span:hover {
