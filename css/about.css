@@ -5,4 +5,37 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#about-content {
+    background: rgba(255, 255, 255, 0.619);
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    border-radius: 30px;
+    width: clamp(4rem, 80%vw, 60rem);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+#about-text {
+    flex: 1;
+    text-align: left;
+    width: 20rem;
+}
+
+#about-radiospot {
+    flex: 0 0 auto;
+}
+
+#about-radiospot audio {
+    filter: invert(1);
+    opacity: 0.8;
+}
+
