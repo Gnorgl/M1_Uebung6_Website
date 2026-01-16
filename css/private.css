@@ -62,7 +62,7 @@
     position: relative;
     transition: color 0.3s ease;
 }
-// Dark Mode Anpassung
+/* Dark Mode Anpassung */
 [data-theme="dark"] .intro-text {
     color: #ffffff;
 }
