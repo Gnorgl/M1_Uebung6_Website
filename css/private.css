@@ -117,6 +117,20 @@
     margin: 0;
     font-weight: 500;
 }
+
+/* --- DARK MODE KARTEN --- */
+
+/* Karte wird dunkel */
+[data-theme="dark"] .content-section {
+    background: #1e1e1e;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+/* Text in der Karte wird Weiß */
+[data-theme="dark"] .content-text p {
+    color: #e0e0e0;
+}
+
 /* --- Footer --- */
 .final-section {
     background: linear-gradient(135deg, #ff6600 0%, #ff8c42 100%);
