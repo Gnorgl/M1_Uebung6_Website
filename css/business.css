@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 80px 20px;
-    background: linear-gradient(45deg, #fb1303, #f0d41a);
+   background: linear-gradient(45deg, #fb1303, #1a25f0);
     position: relative;
     overflow: hidden;
     margin-bottom: 60px;
@@ -130,7 +130,7 @@
 
 /* --- Footer --- */
 .final-section {
-    background: linear-gradient(45deg, #fb1303, #f0d41a);
+    background: linear-gradient(45deg, #fb1303, #1a25f0);
     padding: 120px 20px;
     text-align: center;
     position: relative;
@@ -153,7 +153,7 @@
     display: inline-block;
     padding: 20px 50px;
     background: #ffffff;
-    color: #ff6600;
+    color: #6200ff;
     font-size: 1.2em;
     font-weight: 700;
     text-decoration: none; 
