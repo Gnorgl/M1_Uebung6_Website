@@ -1,0 +1,12 @@
+#source-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#source-links {
+    max-width: 80%;
+    word-wrap: break-word;
+}
