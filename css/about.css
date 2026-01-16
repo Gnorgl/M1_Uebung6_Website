@@ -12,7 +12,7 @@
 }
 
 #about-content {
-    background: rgba(255, 255, 255, 0.619);
+    background: var(--header-bg);
     backdrop-filter: blur(20px);
     padding: 50px;
     border-radius: 30px;
@@ -35,7 +35,7 @@
 }
 
 #about-radiospot audio {
-    filter: invert(1);
+    filter: invert(var(--about-audio-color));
     opacity: 0.8;
 }
 
