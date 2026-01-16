@@ -73,7 +73,7 @@ header {
     width: 100%;
     top: 0;
     padding: 0 clamp(10px, 3vw, 40px);
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: var(--header-bg);
     backdrop-filter: blur(10px);
     transition: background-color 0.3s;
 }
@@ -126,7 +126,7 @@ header li a:hover {
 :root {
     --bg-body: #ffffff;          
     --text-main: #333333;        
-    --header-bg: #f8f9fa;        
+    --header-bg: rgba(245, 245, 245, 0.5);        
     --card-bg: #f4f4f4;          
     --card-shadow: rgba(0,0,0,0.1);
     --link-color: #000000;
@@ -136,7 +136,7 @@ header li a:hover {
 [data-theme="dark"] {
     --bg-body: #121212;          
     --text-main: #e0e0e0;        
-    --header-bg: #1e1e1e;        
+    --header-bg:  rgba(36, 36, 36, 0.5);       
     --card-bg: #2a2a2a;          
     --card-shadow: rgba(0,0,0,0.5);
     --link-color: #ffffff;
