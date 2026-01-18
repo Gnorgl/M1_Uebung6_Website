@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 40rem;
 }
 
 #about-content {
@@ -16,7 +17,7 @@
     backdrop-filter: blur(20px);
     padding: 50px;
     border-radius: 30px;
-    width: clamp(4rem, 80%vw, 60rem);
+    width: clamp(4rem, 80vw, 60rem);
 
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,34 @@
 #about-text {
     flex: 1;
     text-align: left;
-    width: 20rem;
+}
+
+#about-media-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.download-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    filter: invert(var(--about-audio-color));
+    transition: transform 0.2s ease, filter 0.3s ease, opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.download-area:hover {
+    opacity: 1;
+    transform: translate(-2px);
 }
 
 #about-radiospot {
