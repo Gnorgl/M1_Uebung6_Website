@@ -35,7 +35,8 @@
 }
 
 #about-radiospot audio {
-    filter: invert(var(--about-audio-color));
+    color-scheme: var(--browser-scheme);
+    filter: invert(var(--about-audio-invert));
     opacity: 0.8;
 }
 
