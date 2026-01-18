@@ -126,8 +126,7 @@ header li a:hover {
     --card-shadow: rgba(0,0,0,0.1);
     --link-color: #000000;
     --homescreen-link-color: linear-gradient(45deg, #fb1303, #1a25f0);
-    --about-audio-invert: 0;
-    --browser-scheme: light;
+    --about-audio-color: 1;
 }
 
 /* Dark Mode  */
@@ -139,8 +138,7 @@ header li a:hover {
     --card-shadow: rgba(0,0,0,0.5);
     --link-color: #ffffff;
     --homescreen-link-color: linear-gradient(45deg, #fb1303, #f0d41a);
-    --about-audio-invert: 0;
-    --browser-scheme: dark;
+    --about-audio-color: 0;
 }
 
 /* Farbe Schwarz und Weiß */
